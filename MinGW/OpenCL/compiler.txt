@@ -1,0 +1,2 @@
+i686-w64-mingw32-g++ -Wl,--add-stdcall-alias -static -lpthread -static-libgcc -static-libstdc++ -I"$OPENCL_HOME\include" OpenCLApp.c -o OpenCLApp32 -L"$OPENCL_HOME\lib\x86" -lOpenCL
+x86_64-w64-mingw32-g++ -Wl,--add-stdcall-alias -static -lpthread -static-libgcc -static-libstdc++ -I"$OPENCL_HOME\include" OpenCLApp.c -o OpenCLApp64 -L"$OPENCL_HOME\lib\x64" -lOpenCL
