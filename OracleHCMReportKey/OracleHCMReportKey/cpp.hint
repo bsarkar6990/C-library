@@ -1,0 +1,2 @@
+#define ORACLEHCMREPORTKEY_API __declspec(dllexport)
+#define ORACLEHCMREPORTKEY_API __declspec(dllimport)
